@@ -1,0 +1,8 @@
+# HTTP requests to the arXiv API/feed and the local Ollama server.
+requests>=2.32,<3
+# Load configuration and credentials from .env.
+python-dotenv>=1.0,<2
+# Extract text from reference PDFs; OCR is not included.
+pypdf>=5,<8
+# Parse Atom XML feeds with protection against entity expansion.
+defusedxml>=0.7,<1
